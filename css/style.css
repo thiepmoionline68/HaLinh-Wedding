@@ -304,8 +304,7 @@ body {
     z-index: -1;
 }
 .banner {
-    display: flex;
-    flex-direction: column;
+    
     row-gap: 40px;
     justify-content: center;
     align-items: center;
@@ -314,6 +313,7 @@ body {
 }
 .banner-title {
     font-size: 40px;
+    margin-top: 50px;
     color: var(--text-white);
     font-family: var(--title-font);
     letter-spacing: 12px;
